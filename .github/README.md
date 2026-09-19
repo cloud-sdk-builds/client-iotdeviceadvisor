@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iotdeviceadvisor`](https://www.npmjs.com/package/@aws-sdk/client-iotdeviceadvisor/v/3.1135.0).
+[`@aws-sdk/client-iotdeviceadvisor`](https://www.npmjs.com/package/@aws-sdk/client-iotdeviceadvisor/v/3.1136.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-iotdeviceadvisor - [https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor](https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor)
-- @aws-sdk/client-iotdeviceadvisor v3.1135.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor&version=3.1135.0](https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor&version=3.1135.0)
+- @aws-sdk/client-iotdeviceadvisor v3.1136.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor&version=3.1136.0](https://cloud-sdk-builds.github.io/?sdk=client-iotdeviceadvisor&version=3.1136.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1135.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1136.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ncQ5dnSD6iV3BKgwm8K5158XTwVWrVNN+K203s6b0vt35/QPmGluXax2U8fBnPry
+sha384-GOToF4cRo4UDhfDwRKdUmX/7ZOxt1eN/Cv6ohN077OVQ9qSLOh7wCs+Y7IqmlZV/
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iotdeviceadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1135.0/index.min.mjs"
+            "@aws-sdk/client-iotdeviceadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1136.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1135.0/index.min.mjs": "sha384-ncQ5dnSD6iV3BKgwm8K5158XTwVWrVNN+K203s6b0vt35/QPmGluXax2U8fBnPry"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1136.0/index.min.mjs": "sha384-GOToF4cRo4UDhfDwRKdUmX/7ZOxt1eN/Cv6ohN077OVQ9qSLOh7wCs+Y7IqmlZV/"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iotdeviceadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1135.0/index.min.mjs"
+                        "@aws-sdk/client-iotdeviceadvisor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1136.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1135.0/index.min.mjs": "sha384-ncQ5dnSD6iV3BKgwm8K5158XTwVWrVNN+K203s6b0vt35/QPmGluXax2U8fBnPry"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotdeviceadvisor@3.1136.0/index.min.mjs": "sha384-GOToF4cRo4UDhfDwRKdUmX/7ZOxt1eN/Cv6ohN077OVQ9qSLOh7wCs+Y7IqmlZV/"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1135.0`)
+* Always pin to a specific version (`@3.1136.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iotdeviceadvisor/blob/refs/tags/3.1135.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iotdeviceadvisor/blob/refs/tags/3.1136.0/LICENSE
 ```
 
 ---
